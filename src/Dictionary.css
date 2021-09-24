@@ -1,6 +1,23 @@
+section {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}
+.searchForm {
+  width: 360px;
+  display: block;
+  margin: 0 auto;
+}
 .wordSearchForm {
   text-align: center;
   font-size: 24px;
+  border: none;
+}
+.inputForm {
+  border-radius: 8px;
 }
 .Results {
   margin-top: 10px;

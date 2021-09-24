@@ -1,6 +1,21 @@
+body {
+  background: linear-gradient(
+    102.2deg,
+    rgb(109, 118, 150) 7.1%,
+    rgb(89, 72, 79) 14.7%,
+    rgb(69, 92, 79) 28%,
+    rgb(204, 85, 67) 43.4%,
+    rgb(237, 181, 121) 60.2%,
+    rgb(219, 230, 175) 76.8%
+  );
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-attachment: fixed;
+}
 .App-header {
   text-align: center;
-  color: mediumvioletred;
+  color: white;
   font-style: italic;
   margin-bottom: 20px;
 }
