@@ -20,7 +20,7 @@ export default function Results(props) {
               target="_blank"
               rel="noreferrer"
             >
-              Listen
+              <i className="fas fa-volume-off"></i>
             </a>{" "}
             /{props.results.phonetics[0].text}/
           </div>

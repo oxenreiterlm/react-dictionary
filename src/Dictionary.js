@@ -32,7 +32,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section className="searchForm">
+        <div className="searchForm">
           <form onSubmit={handleSubmit} className="wordSearchForm">
             <input
               type="search"
@@ -41,7 +41,7 @@ export default function Dictionary(props) {
               className="inputForm"
             />
           </form>
-        </section>
+        </div>
         <Results results={results} />
       </div>
     );
