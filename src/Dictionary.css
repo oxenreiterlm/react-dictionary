@@ -22,3 +22,15 @@ section {
 .Results {
   margin-top: 10px;
 }
+.searchedWord {
+  text-align: center;
+  font-size: 34px;
+}
+.Synonyms {
+  margin: 20px 0 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+}
