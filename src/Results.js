@@ -4,7 +4,7 @@ import Meaning from "./Meaning.js";
 export default function Results(props) {
   function Origin() {
     if (props.results.origin) {
-      return <div>Origin: {props.results.origin}</div>;
+      return <div className="Origin">{props.results.origin}</div>;
     } else {
       return null;
     }
@@ -20,7 +20,7 @@ export default function Results(props) {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fas fa-volume-off"></i>
+              <i className="fas fa-volume-off listenIcon"></i>
             </a>{" "}
             /{props.results.phonetics[0].text}/
           </div>
