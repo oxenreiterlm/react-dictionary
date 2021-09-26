@@ -18,7 +18,15 @@ export default function App() {
           >
             Open-source code
           </a>{" "}
-          by Laura Oxenreiter
+          by{" "}
+          <a
+            href="https://gifted-edison-603b21.netlify.app/"
+            title="Portfolio"
+            target="blank"
+            className="portfolioLink"
+          >
+            Laura Oxenreiter
+          </a>
         </footer>
       </div>
     </div>

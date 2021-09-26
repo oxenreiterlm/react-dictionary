@@ -41,3 +41,11 @@ footer {
 .gitHubLink:hover {
   color: lightgray;
 }
+
+.portfolioLink {
+  text-decoration: none;
+  color: white;
+}
+.portfolioLink:hover {
+  color: lightgray;
+}
