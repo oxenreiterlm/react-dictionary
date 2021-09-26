@@ -19,6 +19,7 @@ export default function Results(props) {
               href={props.results.phonetics[0].audio}
               target="_blank"
               rel="noreferrer"
+              title="Listen"
             >
               <i className="fas fa-volume-off listenIcon"></i>
             </a>{" "}
