@@ -14,6 +14,7 @@ export default function App() {
             href="https://github.com/oxenreiterlm/react-dictionary"
             title="GitHub respository"
             target="blank"
+            className="gitHubLink"
           >
             Open-source code
           </a>{" "}
