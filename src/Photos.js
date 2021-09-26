@@ -12,7 +12,7 @@ export default function Photos(props) {
                   href={photo.src.original}
                   target="blank"
                   rel="noreferrer"
-                  title="photo full-screen"
+                  title={photo.url}
                 >
                   <img
                     src={photo.src.tiny}
